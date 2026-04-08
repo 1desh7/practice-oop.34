@@ -21,15 +21,15 @@
 ---
 ### ✨ Task 3
 #### [Link to the commit](./src/Task3)
-#### 📝 Factory Method та серіалізація результатів.
+#### 📝 Спадкування.
 ---
 ### ✨ Task 4
 #### [Link to the commit](./src/Task4)
-#### 📝 Перевизначення, перевантаження та поліморфізм у Java.
+#### 📝 Поліморфізм.
 ---
 ### ✨ Task 5
 #### [Link to the commit](./src/Task5)
-#### 📝 Практичне застосування шаблонів проектування (Command, Singleton).
+#### 📝 Обробка колекцій.
 ---
 ### ✨ Task 6
 #### [Link to the commit](./src/Task6)
