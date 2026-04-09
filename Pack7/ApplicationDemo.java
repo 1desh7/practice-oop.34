@@ -5,16 +5,6 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Демонстраційна програма для Pack7 - Observer Pattern з Annotations та Reflection API
- * 
- * ВИМОГИ:
- * 1. ✓ Observer Pattern з колекцією Item2d та кількома спостерігачами
- * 2. ✓ Annotations з різними Retention Policies (SOURCE, CLASS, RUNTIME)
- * 3. ✓ Reflection API для аналізу класів та анотацій
- * 4. ✓ GUI для відображення графіка з перемальовуванням
- * 5. ✓ Діалоговий інтерфейс без блокування вікна
- */
 public class ApplicationDemo {
     
     public static void main(String[] args) {
