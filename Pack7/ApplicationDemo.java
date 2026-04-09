@@ -15,42 +15,6 @@ public class ApplicationDemo {
         Main.main(args);
     }
     
-    /**
-     * Демонструє різні політики утримання анотацій (Retention Policies)
-     */
-    private static void demonstrateAnnotationRetention() {
-        System.out.println("\n╔═════════════════════════════════════════════════╗");
-        System.out.println("║   ДЕМОНСТРАЦІЯ RETENTION POLICIES АНОТАЦІЙ       ║");
-        System.out.println("╚═════════════════════════════════════════════════╝\n");
-        
-        // RUNTIME Retention - видна під час виконання
-        System.out.println("1. @ObserverInfo (RUNTIME Retention):");
-        System.out.println("   └─ Видна під час виконання програми");
-        System.out.println("   └─ Доступна через Reflection API");
-        System.out.println("   └─ Використовується для аналізу спостерігачів\n");
-        
-        // CLASS Retention - видна під час компіляції
-        System.out.println("2. @Watcher (CLASS Retention):");
-        System.out.println("   └─ Видна під час компіляції та виконання");
-        System.out.println("   └─ Видалюється під час завантаження класу");
-        System.out.println("   └─ Використовується в IDE та IntelliSense\n");
-        
-        // SOURCE Retention - видна тільки у вихідному коді
-        System.out.println("3. @CriticalMethod (SOURCE Retention):");
-        System.out.println("   └─ Видна тільки в исходном коде");
-        System.out.println("   └─ Видалюється під час компіляції");
-        System.out.println("   └─ Використовується для документації розробника\n");
-        
-        // Практична демонстрація
-        System.out.println("═══════════════════════════════════════════════════\n");
-        System.out.println("АНАЛІЗ RETENTION POLICIES (Reflection API):\n");
-        
-        analyzeRetentionPolicies();
-    }
-    
-    /**
-     * Аналізує retention policies за допомогою Reflection API
-     */
     private static void analyzeRetentionPolicies() {
         Class<?> consoleClass = ConsoleObserver.class;
         
