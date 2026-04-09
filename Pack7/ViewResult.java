@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Модель даних - Observable (спостережуваний об'єкт)
- * Спадкує з базового класу Observable та утримує колекцію Item2d
- * При додаванні нових елементів сповіщає всіх зареєстрованих спостерігачів
+ * Модель даних - Observable 
  */
 @ObserverInfo(name = "ViewResult", description = "Модель даних з Observable паттерном")
 public class ViewResult extends Observable {
